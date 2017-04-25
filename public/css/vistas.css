@@ -1,0 +1,111 @@
+    #div-agregado
+	{
+        background:rgba(0, 0, 0, 0.75);
+        width: 100%;
+        z-index:2;
+        float:left;
+        top:0px;
+        left:0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 100px;
+        position:absolute;
+    }
+    #form-agregar-cliente
+	{
+        background-color: white;
+        padding:20px;
+    }
+    #boton-cerrar-form
+	{
+        position: relative;
+        float:right;
+        z-index:3
+    }
+    #glyph-cerrar
+	{
+        margin:10px;
+        padding: 5px;
+    }
+    #select-size
+	{
+        padding: 8px;
+    }
+    #padding-para-form
+	{
+        padding-top-top: 10px;
+    }
+    #boton-contacto, #boton-contacto2, #boton-telefono, #boton-telefono2, #boton-telefonos, #boton-telefonos2, #boton-contactos, #boton-contactos2
+	{
+        margin-top: 28px;
+        padding: 9px;
+    }
+	.filtro-texto
+	{
+        padding-top:8px;
+        padding-left:15px;
+        font-size:15px;
+    }
+    .div-filtros
+	{
+        padding-top:10px;
+    }
+    .cambiar-zindex
+	{
+        z-index:0;
+    }
+    .mostrar-lista
+	{
+        display: block;
+    }
+    .ocultar-lista
+	{
+        display: none;
+    }
+    input[type=checkbox]
+	{
+      -webkit-transform: scale(2); /* Safari and Chrome */
+    }
+    .checkbox-posicion
+	{
+        margin-top:34px;
+        margin-left:5px;
+    }
+	#eliminar-opcion-contratacion, #eliminar-opcion-servicio, #eliminar-opcion-venuesalas
+	{
+      margin-top: 28px;
+      padding: 9px;
+    }	
+	#agregar-salas
+	{
+		margin-top: 27px;
+	}
+	.borrar-salas-glyph
+	{
+		margin-left: 44px;
+		color:grey;
+	}
+	.borrar-salas-glyph:hover
+	{
+		color:black;
+	}
+	.borrar-telefonos-glyph
+	{
+		margin-top:5px;
+		float:right;
+		color:grey;
+	}
+	.borrar-telefonos-glyph:hover
+	{
+		color:black;
+	}
+	.borrar-contactos-glyph
+	{
+		margin-top:5px;
+		float:right;
+		color:grey;
+	}
+	.borrar-contactos-glyph:hover
+	{
+		color:black;
+	}
